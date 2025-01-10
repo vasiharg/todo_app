@@ -4,6 +4,8 @@ import time
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
 print("It is, ", now)
+
+print(functions.get_todos())
 while True:
     user_action = input("Type add, edit, show, complete or exit:")
     user_action = user_action.strip()
